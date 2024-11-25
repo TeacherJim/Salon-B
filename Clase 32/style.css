@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.tareas { /* Cambia el estilo de la lista */
+    padding: auto;
+}
+
+.tareas li {
+    list-style-image: url(panda.png);
+    padding: 5px;
+    background-color: #e0e0e0;
+    margin: 5px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Eliminar espacio entre bordes */
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}

@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    /* Estilo para el fondo del elemento y el color del texto */
+    background-color: #4f4f3f;
+    color: white;
+    /* Espaciado interno del elemento */
+    padding: 10px 20px;
+    /* Alineación del texto al centro */
+    text-align: center;
+    }
+    
+    .card-container {
+        /* Contenedor de tarjetas con diseño flexible */
+        display: flex;
+        /* Distribución del espacio entre las tarjetas */
+        justify-content: space-around;
+        /* Permitir que las tarjetas se envuelvan en múltiples líneas */
+        flex-wrap: wrap;
+        /* Margen alrededor del contenedor de tarjetas */
+        margin: 20px;
+    }
+    
+    .card {
+        /* Ancho fijo para cada tarjeta */
+        width: 300px;
+        /* Color de fondo de cada tarjeta */
+        background-color: white;
+        /* Borde de cada tarjeta */
+        border: 1px solid #ccc;
+        /* Margen alrededor de cada tarjeta */
+        margin: 15px;
+    }
+
+    .card img {
+        display: flex;
+        width: 50%; /* Imagen centrada al 50% del ancho de la tarjeta */
+        margin: 0 auto; /* Centrar la imagen */
+    }
+    
+    .card h2 {
+        text-align: center; /* Centrar el texto del encabezado */
+        color: #333;
+    }
+    
+    .card p {
+        padding: 5px 15px; /* Padding en el texto de las cartas */
+        text-align: justify; /* Justificar el texto */
+        color: #666;
+    }

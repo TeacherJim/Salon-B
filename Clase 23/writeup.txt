@@ -1,0 +1,65 @@
+Imagenes
+<img>
+src= ""
+alt= " " 
+
+
+<img src="url" alt="alternatetext">
+
+<img src="img_girl.jpg" alt="Girl in a jacket" style="width:500px;height:600px;">
+
+<img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+
+<p style="background-image: url('img_girl.jpg');">
+
+
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+}
+
+</style>
+
+<style>
+body {
+  background-image: url('example_img_girl.jpg');
+  background-repeat: no-repeat;
+}
+</style>
+
+
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+</style>
+
+
+
+
+<style>
+body {
+  background-image: url('img_girl.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+</style>
+
+
+
+
+Responsive Imagenes
+<picture>
+  <source media="(min-width: 650px)" srcset="img_food.jpg">
+  <source media="(min-width: 465px)" srcset="img_car.jpg">
+  <img src="img_girl.jpg">
+</picture>
+
+
+<body style= " background-image: url();"></body>

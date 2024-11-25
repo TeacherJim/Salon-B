@@ -1,0 +1,47 @@
+
+.auto, #palabraimportante, h1{
+    background-color: rgb(227, 227, 96);
+}
+
+h1{
+    font-family: 'Biome','Courier New', Courier, monospace;
+    font-size: 90%;
+    font-weight: bolder;
+    font-style: italic;
+    font
+
+}
+
+
+
+
+/*Todo lo que esté dentro va a ser un comentario*/
+/*#parrafoImportante{
+    color:tomato;
+    background-color: #000000;
+}*/
+
+#palabraimportante{
+ 
+}
+
+.auto{
+
+    font-weight: bolder;
+}
+
+.SuperRapido{
+    font-size: 200%;
+}
+
+.Rapido{
+    font-size: 150%;
+}
+
+.VelocidadPromedio{
+    font-size: 100%;
+}
+
+.Paseo{
+    font-size: 50%;
+}

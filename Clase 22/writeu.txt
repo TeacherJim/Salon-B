@@ -1,0 +1,28 @@
+etiquetas:
+<h1>
+<pre>
+
+parrafor normales
+<p>
+link
+referencias absolutas y relacionales
+<a>
+
+linea para separar
+<hr>
+
+formato de texto
+<b> bold
+<i> italic
+
+Atributos:
+href:
+style: para colores de parrafo
+background-color: tomato
+color:red
+font-family: verdana, courier
+font-size: 160%
+text-align:center
+Conceptos;:
+Referencias relativas
+Referencias absolutas

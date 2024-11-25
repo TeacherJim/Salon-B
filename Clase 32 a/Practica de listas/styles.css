@@ -1,0 +1,22 @@
+ul{
+    text-align: center;
+    background-color: #dfdfdf;
+}
+
+ul li{
+    list-style-image: url(logo\ spiderman.png);
+}
+
+ul{
+    /*Shorthand de bordes*/
+    /*border: 2px dotted red;*/
+
+    border-width: 2px;
+    border-style: dotted;
+    border-color: red;
+}
+
+
+ol{
+    list-style-type:upper-roman;
+}
